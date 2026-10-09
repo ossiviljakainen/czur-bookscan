@@ -1,0 +1,54 @@
+{
+  "settle_seconds": 2.0,
+  "stable_difference": 0.007,
+  "turn_difference": 0.035,
+  "duplicate_difference": 0.018,
+  "geometric_duplicate_difference": 0.04,
+  "changed_tiles": 0.35,
+  "blank_std": 5.0,
+  "minimum_sharpness": 0.0,
+  "max_frame_gap": 0.8,
+  "holder_pause": true,
+  "holder_core_inset": 0.3,
+  "holder_yellow_fraction": 0.001,
+  "rois": [
+    [
+      0.12,
+      0.18,
+      0.46,
+      0.82
+    ],
+    [
+      0.54,
+      0.18,
+      0.88,
+      0.82
+    ]
+  ],
+  "mode_rois": {
+    "cover": [
+      [
+        0.36,
+        0.25,
+        0.64,
+        0.75
+      ]
+    ],
+    "single page": [
+      [
+        0.36,
+        0.25,
+        0.64,
+        0.75
+      ]
+    ],
+    "intentional blank": [
+      [
+        0.36,
+        0.25,
+        0.64,
+        0.75
+      ]
+    ]
+  }
+}

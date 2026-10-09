@@ -1,0 +1,39 @@
+# Captured book data and local sessions
+captures/
+**/captures/
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.JPEG
+*.PNG
+session-ui.json
+review-config.json
+guide-config.json
+check-config.json
+events.jsonl
+audio-diagnostics.jsonl
+*.pending-*
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local diagnostics and device-specific state
+diagnostics/
+*.device.json
+.local/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp

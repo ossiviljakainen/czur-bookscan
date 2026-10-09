@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
+if [[ ! -x .venv/bin/python ]]; then
+    echo 'Create the project .venv and install requirements-capture.txt; see docs/capture.md.' >&2
+    exit 1
+fi
+if [[ $# -eq 0 ]]; then
+    exec .venv/bin/python -m bookscan --session "captures/session-$(date +%Y%m%d-%H%M%S)"
+fi
+exec .venv/bin/python -m bookscan "$@"
